@@ -1,0 +1,29 @@
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 600px) {
+  select,
+  input,
+  button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .box-card {
+    width: 40%;
+  }
+
+  #resumo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav {
+    overflow-x: auto;
+  }
+  .armazem-header {
+    height: 3rem;
+  }
+  .armazem-boxes {
+    justify-content: center;
+  }
+}

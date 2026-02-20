@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrackOper</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <header>
+    <nav> <img id="logo" src="/images/LOGO.png" alt="Logo do Sistema"> <img id="logoYara" src="/images/Yara_logo.svg.png" alt="Logo da Yara"> </nav>
+  </header>
+
+  <main> <!-- Resumo Geral -->
+    <div id="resumo"> <span>Enlonados: 0</span> <span>Pendentes: 0</span> <span>Não Enlonados: 0</span> </div> <!-- Filtro de Armazém -->
+    <div class="filtro"> <label for="filtroArmazem">Filtrar por Armazém:</label> <select id="filtroArmazem"></select> </div> <!-- Container de Armazéns -->
+    <div id="armazensContainer"></div> <!-- Modal do Formulário -->
+    <div id="modalForm" class="modal">
+      <div class="modal-content"> <span id="fecharFormBtn" class="close">&times;</span>
+        <h2>Adicionar Produto</h2>
+        <form id="formCarga"> <label for="armazem">Armazém:</label> <select id="armazem" required></select> <label for="box">Box:</label> <select id="box" required>
+            <option value="">Selecionar Box</option>
+          </select> <label for="produto">Produto / Lote:</label> <input type="text" id="produto" placeholder="Produto / Lote" required> <button type="submit">Adicionar Produto</button> </form>
+      </div>
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>

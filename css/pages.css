@@ -1,0 +1,56 @@
+/* ===== PAGES ===== */
+
+.armazem-bloco {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.armazem-header {
+  background: #0D2033;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.armazem-header:hover {
+  background: #183A5C;
+}
+
+.armazem-header .arrow {
+  transition: transform 0.3s;
+}
+
+.armazem-header.active .arrow {
+  transform: rotate(90deg);
+}
+
+.armazem-boxes {
+  display: none;
+  padding: 10px;
+  background: #f5f7fa;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ===== CARDS ===== */
+
+.box-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 15rem;
+  text-align: center;
+  box-shadow: 0 4px 12px #0000000d;
+  font-size: 0.85rem;
+}
+
+.box-card button {
+  width: 100%;
+  margin-top: 5px;
+}

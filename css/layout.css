@@ -1,0 +1,31 @@
+/* ===== LAYOUT ===== */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;;
+  margin: 0;
+  padding: 12px 25px;
+  background: #0D2033;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+
+/* ===== DASHBOARD ===== */
+
+#resumo {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 600;
+  margin-bottom: px;
+  flex-wrap: wrap;
+}
+
+#resumo span {
+  padding: 10px 15px;
+  border-radius: 100px;
+  background: #ffffff;
+  box-shadow: 1px 3px 3px #00000023;
+}
